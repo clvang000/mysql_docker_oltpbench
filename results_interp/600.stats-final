@@ -1,0 +1,41 @@
+native: 
+thr_1: 	11
+thr_2: 	12
+thr_3: 	4
+thr_4: 	0
+lat_1: 	13
+lat_2: 	8
+lat_3: 	6
+lat_4: 	0
+--------------
+bind: 
+thr_1: 	9
+thr_2: 	10
+thr_3: 	6
+thr_4: 	2
+lat_1: 	9
+lat_2: 	12
+lat_3: 	4
+lat_4: 	2
+--------------
+volume: 
+thr_1: 	7
+thr_2: 	2
+thr_3: 	14
+thr_4: 	4
+lat_1: 	5
+lat_2: 	3
+lat_3: 	15
+lat_4: 	4
+--------------
+container: 
+thr_1: 	0
+thr_2: 	3
+thr_3: 	3
+thr_4: 	21
+lat_1: 	0
+lat_2: 	4
+lat_3: 	2
+lat_4: 	21
+--------------
+

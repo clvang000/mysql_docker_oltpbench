@@ -1,0 +1,5 @@
+Configuration,1st, 2nd, 3rd, 4th
+native,8,1,0,0
+bind,1,6,2,0
+volume,0,2,7,0
+container,0,0,0,9

@@ -1,0 +1,11 @@
+Configuration,Finished 1st place,Finished 2nd place,Finished 3rd place,Finished 4th place
+native,13,8,6,0
+bind,9,12,4,2
+volume,5,3,15,4
+container,0,4,2,21
+-,,,,
+native,11,12,4,0
+bind,9,10,6,2
+volume,7,2,14,4
+container,0,3,3,21
+
