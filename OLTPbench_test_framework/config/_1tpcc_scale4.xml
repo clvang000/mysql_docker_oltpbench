@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<parameters>
+	
+    <!-- Connection details -->
+    <dbtype>mysql</dbtype>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <DBUrl>jdbc:mysql://10.0.0.10:6605/_1tpcc_scale4</DBUrl>
+    <username>root</username>
+    <password>largesystemsprojectserver</password>
+    <isolation>TRANSACTION_SERIALIZABLE</isolation>
+    
+    <!-- Scale factor is the number of warehouses in TPCC -->
+    <scalefactor>4</scalefactor>
+    
+    <!-- The workload -->
+    <terminals>250</terminals>
+    <works>
+        <work>
+          <time>1800</time>
+          <rate>unlimited</rate>
+          <weights>45,43,4,4,4</weights>
+        </work>
+    </works>
+	
+	<!-- TPCC specific -->  
+   	<transactiontypes>
+    	<transactiontype>
+    		<name>NewOrder</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>Payment</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>OrderStatus</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>Delivery</name>
+    	</transactiontype>
+    	<transactiontype>
+    		<name>StockLevel</name>
+    	</transactiontype>
+   	</transactiontypes>	
+</parameters>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<parameters>
+
+    <!-- Connection details -->
+    <dbtype>mysql</dbtype>
+    <driver>com.mysql.jdbc.Driver</driver>
+    <DBUrl>jdbc:mysql://10.0.0.10:6605/_3ycsb_scale64</DBUrl>
+    <username>root</username>
+    <password>largesystemsprojectserver</password>
+    <isolation>TRANSACTION_SERIALIZABLE</isolation>
+    
+    <!-- Scalefactor in YCSB is *1000 the number of rows in the USERTABLE-->
+    <scalefactor>64</scalefactor>
+    
+    <!-- The workload -->
+    <terminals>250</terminals>
+    <works>
+        <work>
+          <time>1800</time>
+          <rate>unlimited</rate>
+          <weights>50,5,15,10,10,10</weights>
+        </work>
+    </works>
+
+    <!-- YCSB Procedures declaration -->
+    <transactiontypes>
+        <transactiontype>
+                <name>ReadRecord</name>
+        </transactiontype>
+        <transactiontype>
+                <name>InsertRecord</name>
+        </transactiontype>
+        <transactiontype>
+                <name>ScanRecord</name>
+        </transactiontype>
+        <transactiontype>
+                <name>UpdateRecord</name>
+        </transactiontype>
+        <transactiontype>
+                <name>DeleteRecord</name>
+        </transactiontype>
+        <transactiontype>
+                <name>ReadModifyWriteRecord</name>
+        </transactiontype>
+    </transactiontypes>
+</parameters>
