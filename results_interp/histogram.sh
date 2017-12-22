@@ -35,7 +35,7 @@ gnuplot <<- EOF
 	set datafile separator ',';
     set grid
 
-    set title "Placement per container configuration\n27 tests, 9 comparisons: all benchmarks, 250 clients, 4, 16, 64 scales, 1800 sec. duration"
+    set title "Placement per container configuration\n36 tests, 9 comparisons: all benchmarks, 250 clients, 4, 16, 64 scales, 1800 sec. duration"
 
     set style data histogram
     set style histogram rowstacked

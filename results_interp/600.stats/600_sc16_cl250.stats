@@ -1,0 +1,74 @@
+(1) ycsb_sc16_cl250_rt600
+Avg_thr: 			[14314.43833333333, 14733.565000000004, 14248.058333333329, 11282.216666666665]
+Avg_thr_sorted: 		[14733.565000000004, 14314.43833333333, 14248.058333333329, 11282.216666666665]
+Avg_thr_ranked: 		[1, 0, 2, 3]
+Avg_thr_ranked_formatted: 	['bind', 'native', 'volume', 'container']
+Avg_lat: 			[18.100525000000005, 17.575416666666676, 18.76939166666667, 23.780125]
+Avg_lat_sorted: 		[17.575416666666676, 18.100525000000005, 18.76939166666667, 23.780125]
+Avg_lat_ranked: 		[1, 0, 2, 3]
+Avg_lat_ranked_formatted: 	['bind', 'native', 'volume', 'container']
+
+(2) tpcc_sc16_cl250_rt600
+Avg_thr: 			[146.54666666666662, 144.92166666666665, 146.70666666666665, 108.59166666666668]
+Avg_thr_sorted: 		[146.70666666666665, 146.54666666666662, 144.92166666666665, 108.59166666666668]
+Avg_thr_ranked: 		[2, 0, 1, 3]
+Avg_thr_ranked_formatted: 	['volume', 'native', 'bind', 'container']
+Avg_lat: 			[1774.7466416666664, 1795.8510083333326, 1779.5197250000008, 2402.2078666666657]
+Avg_lat_sorted: 		[1774.7466416666664, 1779.5197250000008, 1795.8510083333326, 2402.2078666666657]
+Avg_lat_ranked: 		[0, 2, 1, 3]
+Avg_lat_ranked_formatted: 	['native', 'volume', 'bind', 'container']
+
+(3) wiki_sc16_cl250_rt600
+Avg_thr: 			[41367.25833333333, 36531.36999999999, 36444.13833333333, 37425.68500000002]
+Avg_thr_sorted: 		[41367.25833333333, 37425.68500000002, 36531.36999999999, 36444.13833333333]
+Avg_thr_ranked: 		[0, 3, 1, 2]
+Avg_thr_ranked_formatted: 	['native', 'container', 'bind', 'volume']
+Avg_lat: 			[5.910125000000002, 6.792750000000001, 6.825541666666664, 6.633875000000003]
+Avg_lat_sorted: 		[5.910125000000002, 6.633875000000003, 6.792750000000001, 6.825541666666664]
+Avg_lat_ranked: 		[0, 3, 1, 2]
+Avg_lat_ranked_formatted: 	['native', 'container', 'bind', 'volume']
+
+
+FINAL STATISTICS over 3 test setups
+--------------
+native: 
+thr_1: 	1
+thr_2: 	2
+thr_3: 	0
+thr_4: 	0
+lat_1: 	2
+lat_2: 	1
+lat_3: 	0
+lat_4: 	0
+--------------
+bind: 
+thr_1: 	1
+thr_2: 	0
+thr_3: 	2
+thr_4: 	0
+lat_1: 	1
+lat_2: 	0
+lat_3: 	2
+lat_4: 	0
+--------------
+volume: 
+thr_1: 	1
+thr_2: 	0
+thr_3: 	1
+thr_4: 	1
+lat_1: 	0
+lat_2: 	1
+lat_3: 	1
+lat_4: 	1
+--------------
+container: 
+thr_1: 	0
+thr_2: 	1
+thr_3: 	0
+thr_4: 	2
+lat_1: 	0
+lat_2: 	1
+lat_3: 	0
+lat_4: 	2
+--------------
+

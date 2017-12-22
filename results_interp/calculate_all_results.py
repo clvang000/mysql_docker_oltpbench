@@ -171,8 +171,8 @@ for nr_of_clients in client_list:
 nr_of_comparisons = 1
 all_thr_formatted = []
 all_lat_formatted = []
-for cmp in cmp_avgthr_avglat_dict:
-    single_setup__process_and_print_results(cmp, nr_of_comparisons)
+for cmp1 in cmp_avgthr_avglat_dict:
+    single_setup__process_and_print_results(cmp1, nr_of_comparisons)
     nr_of_comparisons += 1
     print('')
 
