@@ -1,9 +1,4 @@
 # mysql_docker_oltpbench
-Large Systems SNE 2017 Project
-
-This gitpage contains the scripting code used to run our tests for the
-'Comparative Study of Data Storage Options in Containerization' project.
-<br>
 
 -The 'OLTPbench_test_framework' folder contains the test framework we used to test the several MySQL setups.
 
